@@ -1,0 +1,37 @@
+{
+  "parent": "cxivov_mod:proverbs/zaseje",
+  "criteria": {
+    "hay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:hay_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.ihlu.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:hay_block"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.ihlu.title"
+    }
+  },
+  "requirements": [
+    [
+      "hay"
+    ]
+  ]
+}

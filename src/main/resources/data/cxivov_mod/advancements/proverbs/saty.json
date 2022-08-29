@@ -1,0 +1,75 @@
+{
+  "parent": "cxivov_mod:proverbs/kapce",
+  "criteria": {
+    "saty": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:chainmail_helmet",
+                "minecraft:diamond_helmet",
+                "minecraft:golden_helmet",
+                "minecraft:iron_helmet",
+                "minecraft:leather_helmet",
+                "minecraft:netherite_helmet",
+                "minecraft:turtle_helmet"
+              ]
+            },
+            "chest": {
+              "items": [
+                "minecraft:chainmail_chestplate",
+                "minecraft:diamond_chestplate",
+                "minecraft:golden_chestplate",
+                "minecraft:iron_chestplate",
+                "minecraft:leather_chestplate",
+                "minecraft:netherite_chestplate"
+              ]
+            },
+            "legs": {
+              "items": [
+                "minecraft:chainmail_leggings",
+                "minecraft:diamond_leggings",
+                "minecraft:golden_leggings",
+                "minecraft:iron_leggings",
+                "minecraft:leather_leggings",
+                "minecraft:netherite_leggings"
+              ]
+            },
+            "feet": {
+              "items": [
+                "minecraft:chainmail_boots",
+                "minecraft:diamond_boots",
+                "minecraft:golden_boots",
+                "minecraft:iron_boots",
+                "minecraft:leather_boots",
+                "minecraft:netherite_boots"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.saty.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:leather_leggings"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.saty.title"
+    }
+  },
+  "requirements": [
+    [
+      "saty"
+    ]
+  ]
+}

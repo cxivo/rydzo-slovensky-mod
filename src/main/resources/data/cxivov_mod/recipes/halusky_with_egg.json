@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:egg"
+        },
+        {
+            "item": "minecraft:egg"
+        },
+        {
+            "item": "cxivov_mod:halusky"
+        }
+    ],
+    "result": {
+        "item": "cxivov_mod:halusky_with_egg",
+        "count": 1
+    }
+}

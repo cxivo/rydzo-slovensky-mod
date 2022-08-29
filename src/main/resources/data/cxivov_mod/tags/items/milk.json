@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:milk_bucket",
+        "cxivov_mod:sheep_milk_bucket",
+        "cxivov_mod:goat_milk_bucket"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BBB",
+        "BBB",
+        "BBB"
+    ],
+    "key": {
+        "B": {
+            "item": "cxivov_mod:bryndza"
+        }
+    },
+    "result": {
+        "item": "cxivov_mod:block_of_bryndza",
+        "count": 1
+    }
+}

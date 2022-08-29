@@ -1,0 +1,48 @@
+{
+  "parent": "cxivov_mod:proverbs/psa_bit",
+  "criteria": {
+    "pes": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chicken",
+            "minecraft:cooked_chicken",
+            "minecraft:porkchop",
+            "minecraft:cooked_porkchop",
+            "minecraft:beef",
+            "minecraft:cooked_beef",
+            "minecraft:rabbit",
+            "minecraft:cooked_rabbit",
+            "minecraft:mutton",
+            "minecraft:cooked_mutton",
+            "minecraft:rotten_flesh"
+          ]
+        },
+        "entity": {
+          "type": "minecraft:wolf"
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.stareho_psa.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:porkchop"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.stareho_psa.title"
+    }
+  },
+  "requirements": [
+    [
+      "pes"
+    ]
+  ]
+}

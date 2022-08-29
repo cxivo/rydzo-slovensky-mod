@@ -1,0 +1,40 @@
+{
+  "parent": "cxivov_mod:proverbs/mnich",
+  "criteria": {
+    "high": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "min": 350,
+                "max": 1000
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.vysoko_lieta.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:elytra"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.vysoko_lieta.title"
+    }
+  },
+  "requirements": [
+    [
+      "high"
+    ]
+  ]
+}

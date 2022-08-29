@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "cxivov_mod:goat_milk_bucket"
+        },
+        {
+            "item": "cxivov_mod:rennet_bottle"
+        }
+    ],
+    "result": {
+        "item": "cxivov_mod:goat_cheese",
+        "count": 1
+    }
+}

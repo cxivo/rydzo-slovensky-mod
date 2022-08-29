@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/written_book"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "cxivov_mod:item/zlate_stranky"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "cxivov_mod:item/tales_book"
+    }
+  ]
+}

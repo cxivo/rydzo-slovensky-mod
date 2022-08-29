@@ -1,0 +1,41 @@
+{
+  "parent": "cxivov_mod:proverbs/root",
+  "criteria": {
+    "voz": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:minecart"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.voz.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:minecart"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.voz.title"
+    }
+  },
+  "requirements": [
+    [
+      "voz"
+    ]
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "cxivov_mod:proverbs/malo_muziky",
+  "criteria": {
+    "muzika": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jukebox"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.vela_muziky.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:jukebox"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.vela_muziky.title"
+    }
+  },
+  "requirements": [
+    [
+      "muzika"
+    ]
+  ]
+}

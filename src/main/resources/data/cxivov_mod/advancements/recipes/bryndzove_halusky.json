@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bryndza": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cxivov_mod:bryndza"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_bacon": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cxivov_mod:bacon"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_bryndza",
+      "has_bacon"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cxivov_mod:bryndzove_halusky"
+    ]
+  }
+}

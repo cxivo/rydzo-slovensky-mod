@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "cxivov_mod:block/block_of_bryndza"
+    }
+}

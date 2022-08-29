@@ -1,0 +1,76 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_milk": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:milk_bucket"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stomach": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cxivov_mod:stomach"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_rennet_bottle": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cxivov_mod:rennet_bottle"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cheese_recipe": {
+      "conditions": {
+        "recipe": "cxivov_mod:cow_cheese"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_rennet_recipe": {
+      "conditions": {
+        "recipe": "cxivov_mod:rennet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_zincica_recipe": {
+      "conditions": {
+        "recipe": "cxivov_mod:zincica"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_milk",
+      "has_stomach",
+      "has_rennet_bottle",
+      "has_cheese_recipe",
+      "has_rennet_recipe",
+      "has_zincica_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cxivov_mod:rennet",
+      "cxivov_mod:cow_cheese",
+      "cxivov_mod:zincica"
+    ]
+  }
+}

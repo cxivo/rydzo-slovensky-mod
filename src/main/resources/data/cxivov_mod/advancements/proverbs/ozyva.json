@@ -1,0 +1,168 @@
+{
+  "parent": "cxivov_mod:proverbs/root",
+  "criteria": {
+    "forest": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:forest"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:goat_horn"
+          ]
+        }
+      }
+    },
+    "birch_forest": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:birch_forest"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:goat_horn"
+          ]
+        }
+      }
+    },
+    "flower_forest": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:flower_forest"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:goat_horn"
+          ]
+        }
+      }
+    },
+    "old_growth_birch_forest": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:old_growth_birch_forest"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:goat_horn"
+          ]
+        }
+      }
+    },
+    "taiga": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:taiga"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:goat_horn"
+          ]
+        }
+      }
+    },
+    "snowy_taiga": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:snowy_taiga"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:goat_horn"
+          ]
+        }
+      }
+    },
+    "old_growth_spruce_taiga": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:old_growth_spruce_taiga"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:goat_horn"
+          ]
+        }
+      }
+    },
+    "old_growth_pine_taiga": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:old_growth_pine_taiga"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:goat_horn"
+          ]
+        }
+      }
+    },
+    "dark_forest": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:dark_forest"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:goat_horn"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.ozyva.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:goat_horn"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.ozyva.title"
+    }
+  },
+  "requirements": [
+    [
+      "forest",
+      "birch_forest",
+      "flower_forest",
+      "old_growth_birch_forest",
+      "taiga",
+      "snowy_taiga",
+      "old_growth_spruce_taiga",
+      "old_growth_pine_taiga",
+      "dark_forest"
+    ]
+  ]
+}

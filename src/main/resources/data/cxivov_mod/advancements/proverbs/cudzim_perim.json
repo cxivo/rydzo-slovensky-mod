@@ -1,0 +1,37 @@
+{
+  "parent": "cxivov_mod:proverbs/root",
+  "criteria": {
+    "perie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:feather"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.cudzim_perim.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:feather"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.cudzim_perim.title"
+    }
+  },
+  "requirements": [
+    [
+      "perie"
+    ]
+  ]
+}

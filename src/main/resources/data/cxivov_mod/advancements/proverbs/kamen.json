@@ -1,0 +1,35 @@
+{
+  "parent": "cxivov_mod:proverbs/root",
+  "criteria": {
+    "kamen": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cobblestone"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.kamen.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:cobblestone"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.kamen.title"
+    }
+  },
+  "requirements": [
+    [
+      "kamen"
+    ]
+  ]
+}

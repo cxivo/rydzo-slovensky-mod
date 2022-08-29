@@ -1,0 +1,39 @@
+{
+  "parent": "cxivov_mod:proverbs/zaseje",
+  "criteria": {
+    "honey": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:honey_block"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.nepreskocis.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:honey_block"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.nepreskocis.title"
+    }
+  },
+  "requirements": [
+    [
+      "honey"
+    ]
+  ]
+}

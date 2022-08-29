@@ -1,0 +1,32 @@
+{
+  "parent": "cxivov_mod:proverbs/root",
+  "criteria": {
+    "doma": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:the_nether",
+        "to": "minecraft:overworld"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.doma_najlepsie.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.doma_najlepsie.title"
+    }
+  },
+  "requirements": [
+    [
+      "doma"
+    ]
+  ]
+}

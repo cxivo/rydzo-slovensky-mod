@@ -1,0 +1,15 @@
+{
+    "pack": {
+        "description": "Mod things",
+        "pack_format": 9,
+        "forge:resource_pack_format": 9,
+        "forge:data_pack_format": 10
+    },
+    "language": {
+        "sk_nove": {
+            "name": "Vylep\u0161en\u00e1 sloven\u010dina",
+            "region": "Slovensko",
+            "bidirectional": false
+        }
+    }
+}

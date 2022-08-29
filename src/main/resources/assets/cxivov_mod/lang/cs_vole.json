@@ -1,0 +1,36 @@
+{
+    "item.cxivov_mod.valaska": "Vala\u0161ka, vole",
+    "block.cxivov_mod.block_of_bryndza": "Blok bryndze, vole",
+    "item.cxivov_mod.bryndza": "Bryndza, vole",
+
+    "item.cxivov_mod.cow_cheese": "Kravsk\u00fd sýr, vole",
+    "item.cxivov_mod.sheep_cheese": "Ov\u010d\u00ed sýr, vole",
+    "item.cxivov_mod.goat_cheese": "Koz\u00ed sýr, vole",
+
+    "item.cxivov_mod.rennet_bottle": "Syřidlo, vole",
+    "item.cxivov_mod.whey_bottle": "Srv\u00e1tka, vole",
+    "item.cxivov_mod.zincica_bottle": "\u017din\u010dica, vole",
+
+    "item.cxivov_mod.sheep_milk_bucket": "Kbelík ovčího mléka, vole",
+    "item.cxivov_mod.goat_milk_bucket": "Klebík kozího mléka, vole",
+
+    "item.cxivov_mod.stomach": "Žaludek, vole",
+
+    "item.cxivov_mod.bacon": "Slanina, vole",
+    "item.cxivov_mod.halusky": "Halušky, vole",
+    "item.cxivov_mod.halusky_with_egg": "Halušky s vejcem, vole",
+    "item.cxivov_mod.bryndzove_halusky": "Bryndzové halušky, vole",
+
+    "advancements.proverbs.root.title": "Nosit dřevo do lesa, vole",
+    "advancements.proverbs.root.description": "Proč by to někdo dělal? Vždyť je tam dřeva dosť, vole",
+    "advancements.proverbs.halusky.title": "Ví více než pouze halušky jíst, vole",
+    "advancements.proverbs.halusky.description": "Vyzkoušej vrcholné dílo slovenské kuchyně: bryndzové halušky, vole!",
+    "advancements.proverbs.lala.title": "Ľaľa, vole!",
+    "advancements.proverbs.lala.description": "ako sa to teľa v tej ďateline váľa! Převeď tele na vodítku přes trávu, vole",
+    "advancements.proverbs.pes_zakopany.title": "Kde je pes zakopaný, vole",
+    "advancements.proverbs.pes_zakopany.description": "Udeři psa lopatou (slovenské přísloví umějí být kruté), vole",
+
+    "item.minecraft.milk_bucket": "Kbelík kravského mléka, vole",
+    "subtitles.entity.cow.milk": "Dojen\u00ed, vole",
+    "subtitles.item.honey_bottle.drink": "Pití, vole"
+}

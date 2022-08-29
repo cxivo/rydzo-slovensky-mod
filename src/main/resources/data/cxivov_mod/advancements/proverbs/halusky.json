@@ -1,0 +1,38 @@
+{
+  "parent": "cxivov_mod:proverbs/kolace",
+  "criteria": {
+    "bryndzove_halusky": {
+      "conditions": {
+        "item": {
+          "items": [
+            "cxivov_mod:bryndzove_halusky"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.halusky.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "cxivov_mod:bryndzove_halusky"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.halusky.title"
+    }
+  },
+  "requirements": [
+    [
+      "bryndzove_halusky"
+    ]
+  ],
+  "rewards": {
+    "experience": 200
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "cxivov_mod:proverbs/zaseje",
+  "criteria": {
+    "cucky": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:sweet_berries"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.cucky_z_rucky.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:sweet_berries"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.cucky_z_rucky.title"
+    }
+  },
+  "requirements": [
+    [
+      "cucky"
+    ]
+  ]
+}

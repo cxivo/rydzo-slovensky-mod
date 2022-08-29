@@ -1,0 +1,33 @@
+{
+  "parent": "cxivov_mod:proverbs/root",
+  "criteria": {
+    "oci": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility": {}
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.oci_nevidia.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.oci_nevidia.title"
+    }
+  },
+  "requirements": [
+    [
+      "oci"
+    ]
+  ]
+}

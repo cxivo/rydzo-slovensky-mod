@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "cxivov_mod:block/ornamental_acacia_log",
+    "side": "cxivov_mod:block/ornamental_acacia_log"
+  }
+}

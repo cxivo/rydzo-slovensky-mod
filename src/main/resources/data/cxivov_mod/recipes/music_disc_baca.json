@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "minecraft:creeper_drop_music_discs"
+        },
+        {
+            "item": "cxivov_mod:sheep_cheese"
+        },
+        {
+            "item": "cxivov_mod:zincica_bottle"
+        },
+        {
+            "item": "cxivov_mod:bryndza"
+        }
+    ],
+    "result": {
+        "item": "cxivov_mod:music_disc_baca",
+        "count": 1
+    }
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "cxivov_mod:proverbs/root",
+  "criteria": {
+    "pomaly": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:soul_sand"
+              ]
+            }
+          },
+          "flags": {
+            "is_sneaking": true
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.pomaly.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:soul_sand"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.pomaly.title"
+    }
+  },
+  "requirements": [
+    [
+      "pomaly"
+    ]
+  ]
+}

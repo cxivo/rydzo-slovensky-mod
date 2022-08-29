@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "cxivov_mod:block/ornamental_oak_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "cxivov_mod:block/ornamental_oak_wood"
+    },
+    "axis=z": {
+      "model": "cxivov_mod:block/ornamental_oak_wood",
+      "x": 90
+    }
+  }
+}

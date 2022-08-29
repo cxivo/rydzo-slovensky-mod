@@ -1,0 +1,35 @@
+{
+  "parent": "cxivov_mod:proverbs/psa_bit",
+  "criteria": {
+    "slina": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:llama"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.slinu.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:cyan_wool"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.slinu.title"
+    }
+  },
+  "requirements": [
+    [
+      "slina"
+    ]
+  ]
+}

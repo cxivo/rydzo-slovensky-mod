@@ -1,0 +1,49 @@
+{
+  "parent": "cxivov_mod:proverbs/kamen",
+  "criteria": {
+    "kamen": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:stone",
+                "minecraft:cobblestone",
+                "minecraft:diorite",
+                "minecraft:granite",
+                "minecraft:andesite"
+              ]
+            }
+          }
+        },
+        "distance": {
+          "y": {
+            "min": 5,
+            "max": 10000
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.kamen_urazu.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:gravel"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.kamen_urazu.title"
+    }
+  },
+  "requirements": [
+    [
+      "kamen"
+    ]
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "cxivov_mod:proverbs/root",
+  "criteria": {
+    "mysi": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {},
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:silverfish"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.mysi.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "cxivov_mod:cow_cheese"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.mysi.title"
+    }
+  },
+  "requirements": [
+    [
+      "mysi"
+    ]
+  ]
+}

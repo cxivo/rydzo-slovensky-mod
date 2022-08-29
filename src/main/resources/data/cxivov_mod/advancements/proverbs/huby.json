@@ -1,0 +1,43 @@
+{
+  "parent": "cxivov_mod:proverbs/zaseje",
+  "criteria": {
+    "mushrooms": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bone_meal"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:brown_mushroom",
+              "minecraft:red_mushroom"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.huby.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.huby.title"
+    }
+  },
+  "requirements": [
+    [
+      "mushrooms"
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "cxivov_mod:proverbs/nosit_drevo",
+  "criteria": {
+    "bookshelf": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:bookshelf"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.mnich.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:bookshelf"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.mnich.title"
+    }
+  },
+  "requirements": [
+    [
+      "bookshelf"
+    ]
+  ]
+}

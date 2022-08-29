@@ -1,0 +1,34 @@
+{
+  "parent": "cxivov_mod:proverbs/root",
+  "criteria": {
+    "lampa": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:lantern",
+        "state": {
+          "hanging": "true"
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.pod_lampou.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:lantern"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.pod_lampou.title"
+    }
+  },
+  "requirements": [
+    [
+      "lampa"
+    ]
+  ]
+}

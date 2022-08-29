@@ -1,0 +1,37 @@
+{
+  "parent": "cxivov_mod:proverbs/root",
+  "criteria": {
+    "kapce": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.kapce.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:leather_boots"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.kapce.title"
+    }
+  },
+  "requirements": [
+    [
+      "kapce"
+    ]
+  ]
+}

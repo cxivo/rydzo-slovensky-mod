@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "cxivov_mod:bryndza"
+        },
+        {
+            "item": "cxivov_mod:bacon"
+        },
+        {
+            "item": "cxivov_mod:halusky"
+        }
+    ],
+    "result": {
+        "item": "cxivov_mod:bryndzove_halusky",
+        "count": 1
+    }
+}

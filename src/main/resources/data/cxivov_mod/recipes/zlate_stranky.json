@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GBG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "B": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "minecraft:written_book",
+    "count": 1,
+    "nbt": {
+      "pages": ["[\"\",{\"translate\":\"cxivov_mod.zlate_stranky.description\",\"bold\":true}]",
+        "[{\"translate\":\"cxivov_mod.zlate_stranky.all\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger villagers set 1\"}},\"\\n\",{\"translate\":\"cxivov_mod.zlate_stranky.armorer\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger villagers set 2\"}},\"\\n\",{\"translate\":\"cxivov_mod.zlate_stranky.butcher\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger villagers set 3\"}},\"\\n\",{\"translate\":\"cxivov_mod.zlate_stranky.cartographer\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger villagers set 4\"}},\"\\n\",{\"translate\":\"cxivov_mod.zlate_stranky.cleric\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger villagers set 5\"}},\"\\n\",{\"translate\":\"cxivov_mod.zlate_stranky.farmer\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger villagers set 6\"}},\"\\n\",{\"translate\":\"cxivov_mod.zlate_stranky.fisherman\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger villagers set 7\"}},\"\\n\",{\"translate\":\"cxivov_mod.zlate_stranky.fletcher\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger villagers set 8\"}},\"\\n\",{\"translate\":\"cxivov_mod.zlate_stranky.leatherworker\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger villagers set 9\"}},\"\\n\",{\"translate\":\"cxivov_mod.zlate_stranky.librarian\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger villagers set 10\"}}]",
+        "[\"\",{\"translate\":\"cxivov_mod.zlate_stranky.mason\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger villagers set 11\"}},\"\\n\",{\"translate\":\"cxivov_mod.zlate_stranky.shepherd\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger villagers set 12\"}},\"\\n\",{\"translate\":\"cxivov_mod.zlate_stranky.toolsmith\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger villagers set 13\"}},\"\\n\",{\"translate\":\"cxivov_mod.zlate_stranky.weaponsmith\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger villagers set 14\"}},\"\\n\",{\"translate\":\"cxivov_mod.zlate_stranky.nitwit\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger villagers set 15\"}},\"\\n\",{\"translate\":\"cxivov_mod.zlate_stranky.none\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger villagers set 16\"}},\"\\n\",{\"translate\":\"cxivov_mod.zlate_stranky.wandering\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger villagers set 17\"}}]"
+      ],
+      "title": "Zlaté Stránky",
+      "author": "Slovenské Dolotvorné Nakladateľstvo",
+      "CustomModelData": 1
+    }
+  }
+}

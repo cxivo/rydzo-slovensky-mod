@@ -1,0 +1,36 @@
+{
+  "parent": "cxivov_mod:proverbs/pomaly",
+  "criteria": {
+    "pad": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 40,
+            "max": 10000
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.z_neba.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:anvil"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.z_neba.title"
+    }
+  },
+  "requirements": [
+    [
+      "pad"
+    ]
+  ]
+}

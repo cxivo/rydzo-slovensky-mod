@@ -1,0 +1,56 @@
+{
+  "parent": "cxivov_mod:proverbs/root",
+  "criteria": {
+    "interaction": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lead"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cow",
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:grass",
+                    "minecraft:tall_grass"
+                  ]
+                }
+              },
+              "flags": {
+                "is_baby": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.lala.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:lead"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.lala.title"
+    }
+  },
+  "requirements": [
+    [
+      "interaction"
+    ]
+  ]
+}

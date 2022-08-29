@@ -1,0 +1,35 @@
+{
+  "parent": "cxivov_mod:proverbs/root",
+  "criteria": {
+    "bear": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:polar_bear"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.medved.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:cod"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.medved.title"
+    }
+  },
+  "requirements": [
+    [
+      "bear"
+    ]
+  ]
+}

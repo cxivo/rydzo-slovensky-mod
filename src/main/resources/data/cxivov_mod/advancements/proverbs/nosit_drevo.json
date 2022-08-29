@@ -1,0 +1,134 @@
+{
+  "parent": "cxivov_mod:proverbs/root",
+  "criteria": {
+    "placed_oak_log": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:oak_log",
+        "location": {
+          "biome": "minecraft:forest"
+        }
+      }
+    },
+    "placed_oak_log_flower_forest": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:oak_log",
+        "location": {
+          "biome": "minecraft:flower_forest"
+        }
+      }
+    },
+    "placed_birch_log": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:birch_log",
+        "location": {
+          "biome": "minecraft:birch_forest"
+        }
+      }
+    },
+    "placed_birch_log_forest": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:birch_log",
+        "location": {
+          "biome": "minecraft:forest"
+        }
+      }
+    },
+    "placed_birch_log_flower_forest": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:birch_log",
+        "location": {
+          "biome": "minecraft:flower_forest"
+        }
+      }
+    },
+    "placed_birch_log_old_growth_birch_forest": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:birch_log",
+        "location": {
+          "biome": "minecraft:old_growth_birch_forest"
+        }
+      }
+    },
+    "placed_spruce_log_taiga": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:spruce_log",
+        "location": {
+          "biome": "minecraft:taiga"
+        }
+      }
+    },
+    "placed_spruce_log_snowy_taiga": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:spruce_log",
+        "location": {
+          "biome": "minecraft:snowy_taiga"
+        }
+      }
+    },
+    "placed_spruce_log_old_growth_spruce_taiga": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:spruce_log",
+        "location": {
+          "biome": "minecraft:old_growth_spruce_taiga"
+        }
+      }
+    },
+    "placed_spruce_log_old_growth_pine_taiga": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:spruce_log",
+        "location": {
+          "biome": "minecraft:old_growth_pine_taiga"
+        }
+      }
+    },
+    "placed_dark_oak_log": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:dark_oak_log",
+        "location": {
+          "biome": "minecraft:dark_forest"
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.nosit_drevo.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:birch_log"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.nosit_drevo.title"
+    }
+  },
+  "requirements": [
+    [
+      "placed_oak_log",
+      "placed_oak_log_flower_forest",
+      "placed_birch_log",
+      "placed_birch_log_forest",
+      "placed_birch_log_flower_forest",
+      "placed_birch_log_old_growth_birch_forest",
+      "placed_spruce_log_taiga",
+      "placed_spruce_log_snowy_taiga",
+      "placed_spruce_log_old_growth_spruce_taiga",
+      "placed_spruce_log_old_growth_pine_taiga",
+      "placed_dark_oak_log"
+    ]
+  ]
+}

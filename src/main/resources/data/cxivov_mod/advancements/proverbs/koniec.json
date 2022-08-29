@@ -1,0 +1,32 @@
+{
+  "parent": "cxivov_mod:proverbs/doma_najlepsie",
+  "criteria": {
+    "koniec": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:the_end",
+        "to": "minecraft:overworld"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.koniec.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:dragon_egg"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.koniec.title"
+    }
+  },
+  "requirements": [
+    [
+      "koniec"
+    ]
+  ]
+}

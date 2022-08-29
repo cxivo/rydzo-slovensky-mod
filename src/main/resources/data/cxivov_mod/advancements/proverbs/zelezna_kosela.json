@@ -1,0 +1,44 @@
+{
+  "parent": "cxivov_mod:proverbs/kapce",
+  "criteria": {
+    "kosela": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "chest": {
+              "items": [
+                "minecraft:iron_chestplate"
+              ],
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:binding_curse"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.zelezna_kosela.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:iron_chestplate"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.zelezna_kosela.title"
+    }
+  },
+  "requirements": [
+    [
+      "kosela"
+    ]
+  ]
+}

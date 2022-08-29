@@ -1,0 +1,46 @@
+{
+  "parent": "cxivov_mod:proverbs/root",
+  "criteria": {
+    "zaseje": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:wheat"
+      }
+    },
+    "zat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wheat"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.zaseje.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.zaseje.title"
+    }
+  },
+  "requirements": [
+    [
+      "zaseje"
+    ],
+    [
+      "zat"
+    ]
+  ]
+}

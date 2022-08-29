@@ -1,0 +1,43 @@
+{
+  "criteria": {
+    "wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_log",
+              "minecraft:birch_log",
+              "minecraft:dark_oak_log",
+              "minecraft:jungle_log",
+              "minecraft:mangrove_log",
+              "minecraft:oak_log",
+              "minecraft:spruce_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "cxivov_mod:textures/block/block_of_bryndza.png",
+    "description": {
+      "translate": "advancements.proverbs.root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "cxivov_mod:valaska"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.proverbs.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "wood"
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "cxivov_mod:proverbs/root",
+  "criteria": {
+    "les": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:dark_forest",
+            "light": {
+              "light": {
+                "min": 0,
+                "max": 7
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.do_lesa.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:dark_oak_leaves"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.do_lesa.title"
+    }
+  },
+  "requirements": [
+    [
+      "les"
+    ]
+  ]
+}

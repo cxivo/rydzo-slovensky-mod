@@ -1,0 +1,42 @@
+{
+  "parent": "cxivov_mod:proverbs/root",
+  "criteria": {
+    "mach": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bone_meal"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:moss_block"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.zeleni.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:moss_block"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.zeleni.title"
+    }
+  },
+  "requirements": [
+    [
+      "mach"
+    ]
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "parent": "cxivov_mod:proverbs/root",
+  "criteria": {
+    "stomach": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cxivov_mod:stomach"
+            ]
+          }
+        ]
+      }
+    },
+    "rennet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cxivov_mod:rennet_bottle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.proverbs.cez_zaludok.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "cxivov_mod:stomach"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.proverbs.cez_zaludok.title"
+    }
+  },
+  "requirements": [
+    [
+      "stomach"
+    ],
+    [
+      "rennet"
+    ]
+  ]
+}

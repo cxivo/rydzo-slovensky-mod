@@ -1,0 +1,20 @@
+{
+    "pacho_theme": {
+        "subtitle": "cxivov_mod.pacho_theme",
+        "sounds": [
+            {
+                "name": "cxivov_mod:pacho_theme",
+                "stream": true
+            }
+        ]
+    },
+    "ja_som_baca_velmo_stary": {
+        "subtitle": "cxivov_mod.ja_som_baca_velmo_stary",
+        "sounds": [
+            {
+                "name": "cxivov_mod:ja_som_baca_velmo_stary",
+                "stream": true
+            }
+        ]
+    }
+}

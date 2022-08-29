@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "cxivov_mod:item/bryndzove_halusky"
+  }
+}

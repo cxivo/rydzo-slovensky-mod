@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_music_disc": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:creeper_drop_music_discs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_music_disc"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cxivov_mod:music_discs"
+    ]
+  }
+}
